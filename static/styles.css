@@ -1,0 +1,62 @@
+/* styles.css */
+
+/* Add Tailwind CSS utilities */
+@import "https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css";
+
+/* Add custom styles */
+body {
+    font-family: 'Kalam', cursive; /* Use custom font */
+    font-size: 200%;
+    background-color: #2163e6; /* Light gray background */
+    padding: 60px;
+}
+
+.container {
+    max-width: 1000px; /* Limit container width */
+    margin: 0 auto; /* Center container */
+    background-color: #327d64; /* White background for container */
+    padding: 20px;
+    border-radius: 16px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(107, 50, 83, 0.692); /* Add shadow */
+}
+
+h1 {
+    text-align: center; /* Center heading */
+    color: #e6e9eb; /* Dark text color */
+    margin-bottom: 20px; /* Add space below heading */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Add space between form groups */
+}
+
+label {
+    font-weight: bold; /* Make labels bold */
+}
+
+input[type="text"] {
+    width: 100%; /* Full width input */
+    padding: 8px; /* Add padding */
+    border-radius: 4px; /* Rounded corners */
+    border: 1px solid #033502; /* Light gray border */
+}
+
+button {
+    padding: 10px 20px; /* Add padding to button */
+    background-color: #b60505; /* Dark gray background */
+    color: #bb0a0a; /* White text color */
+    border: none; /* Remove button border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Add pointer cursor */
+}
+
+button:hover {
+    background-color: #7e0b0b; /* Darken background on hover */
+}
+
+.result {
+    margin-top: 160px; /* Add space above result */
+    text-align: center; /* Center result */
+    color: #e6e9eb;
+    font-stretch: expanded;
+}
